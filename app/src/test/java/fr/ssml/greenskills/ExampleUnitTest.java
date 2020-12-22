@@ -1,4 +1,4 @@
-package fr.sber.greenskills;
+package fr.ssml.greenskills;
 
 import org.junit.Test;
 

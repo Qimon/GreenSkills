@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.sber.greenskills">
+    package="fr.ssml.template">
 
     <application
         android:allowBackup="true"
-        android:appCategory="social"
-        android:icon="@mipmap/green_skills_logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/green_skills_logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ErrorPageActivity" />
-        <activity android:name=".AuthentificationPageActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="fr.ssml.template.activities.CountActivity"></activity>
+        <activity android:name="fr.ssml.template.activities.LinearLayoutActivity"></activity>
+        <activity android:name="fr.ssml.template.activities.DynamicLinearLayoutActivity"></activity>
+        <activity android:name="fr.ssml.template.activities.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
+    <!-- Pour aller chercher des ressources sur internet-->
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
