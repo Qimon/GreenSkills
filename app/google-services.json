@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98265518708",
+    "project_id": "greenskills-92f10",
+    "storage_bucket": "greenskills-92f10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98265518708:android:16f6ce346c8afbeacf3721",
+        "android_client_info": {
+          "package_name": "fr.sber.greenskills"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98265518708-72rp6tur7es3489uoknspta0rd347oc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9IQUjFck2mCi69AcXHJYHE3cA5JjStpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98265518708-72rp6tur7es3489uoknspta0rd347oc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

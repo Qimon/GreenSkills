@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_green">#40A028</color>
+    <color name="main_orange">#F59E00</color>
+    <color name="main_white">#FFFFFF</color>
+    <color name="main_blue">#0D1693</color>
+    <color name="main_black">#050505</color>
+    <color name="popup_green">#40A028</color>
+    <color name="popup_orange">#F59E00</color>
+    <color name="popup_red">#E61414</color>
+</resources>
