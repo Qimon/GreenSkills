@@ -1,7 +1,16 @@
-<!-- Mettre les Valeurs retrouvées de façon redondantes dans l'application -->
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/main_green</item>
     </style>
+
+    <style name="SquareStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+
 </resources>
